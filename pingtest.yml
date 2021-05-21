@@ -1,6 +1,6 @@
 
 - name: pingtest
-  hosts: webserver
+  hosts: hosts
   remote_user: root
   tasks: 
 

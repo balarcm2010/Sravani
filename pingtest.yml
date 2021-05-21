@@ -1,6 +1,5 @@
----
--
-  name: pingtest
+
+- name: pingtest
   hosts: all
   remote_user: root
   tasks: 

@@ -1,0 +1,11 @@
+  
+---
+  -
+     name: Creating a directory
+     hosts: webserver
+     remote_user: root
+     tasks: 
+
+          - name: creating a Directory
+            path: /home/osboxes/Git_Playbooks
+            state: directory

@@ -7,5 +7,6 @@
      tasks: 
 
           - name: creating a Directory
-            path: /home/osboxes/Git_Playbooks
-            state: directory
+            file:
+               path: /home/osboxes/Git_Playbooks
+               state: directory
